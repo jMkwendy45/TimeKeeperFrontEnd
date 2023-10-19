@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;400&display=swap");
+
+.nav-main-container {
+    background-color: #252b42;
+    height:90px;
+    /*    height:100vh;*/
+    /*}*/
+}
+
+.inner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-container h4{
+    margin-right: 134px;
+    color:#ec5c2e;
+}
+
+/*.navBarFields ul {*/
+/*     display: flex;*/
+/*    align-items: center;*/
+
+/*}*/
+.navBarFields  ul{
+    display: flex;
+    justify-content: space-between;
+    gap:4rem;
+    /*width: 800px;*/
+    list-style: none;
+    margin-right: 50px;
+}
+.navBarFields a {
+    text-decoration: none;
+    color:#9a9da6;
+}
+.buttons button{
+    width: 100px;
+    height: 30px;
+    background-color: #ec5c2e;
+    border-radius: 30px;
+    border-style: none;
+    color: white;
+    margin-left: 200px;
+}
+.buttons button:hover{
+    background-color:pink;
+}
+.LoginButtons button{
+    width: 100px;
+    height: 30px;
+    background-color: #ec5c2e;
+    border-radius: 30px;
+    border-style: none;
+    color: white;
+    margin-right:7px;
+
+}

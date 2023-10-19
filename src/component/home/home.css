@@ -1,0 +1,48 @@
+.text-container{
+    padding:20px 20px;
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+.home-container{
+    background-color:#252b42;
+    height:100vh;
+}
+.streamText{
+    font-size:20px;
+    width:370px;
+    overflow-wrap:break-word;
+    color:#ffffff;
+    margin-left:50px;
+}
+.effort-text{
+    width:370px;
+    overflow-wrap:break-word;
+    margin-left:50px;
+    color:#9a9da6;
+}
+.joinandwatchButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right:930px;
+    margin-top:50px;
+    gap:3rem;
+}
+.joinButton button{
+    height:35px;
+    width:120px;
+    border-radius: 40px;
+    border-style: none;
+    background-color: #ec5c2e;
+}
+.watchButton button{
+    height:35px;
+    width:120px;
+    border-radius: 40px;
+    border-style: none;
+    background-color:#2d7bc4;
+}
+.key_text h4{
+    color:#e3e3e6#e3e3e6;
+}
