@@ -1,13 +1,14 @@
 import './home.css'
 import NavBar from '../../component/navBar/NavBar'
 import lottie from 'lottie-web';
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef,useState } from 'react';
 // import { Link } from "react-router-dom";
 import MessageIcon from './Icon Boxs.png'
 import TeamIcon from './Icon Box.png'
 import ReloadIcon from'./reload.png'
 import SearchIcon from './searchic.png'
 import timePlay from './time.json'
+import subscribePict from './Pills.png'
 
 const Home = ()=>{
     const container = useRef(null);
@@ -25,6 +26,30 @@ const Home = ()=>{
             anim.destroy();
         };
     }, []);
+
+
+    const loginData = {
+        emailAddress: "",
+    }
+    const [data, setData] = useState(loginData);
+    const collectLoginData = async (event) => {
+        event.preventDefault();
+
+        setData((state) => ({
+            ...state,
+            [event.target.name]: event.target.value,
+        }));
+
+    }
+    const handleSubmit = async (event) => {
+        event.preventDefault();
+        const JoinToPartnerData = {
+            emailAddress: data.emailAddress,
+        }
+        console.log(JoinToPartnerData)
+    }
+
+
     return(
         <div className="home-container">
             <NavBar/>
@@ -45,7 +70,7 @@ const Home = ()=>{
                </div>
 
            </div>
-           <div  className="container" style={{ height: '300px', width: '400px'}} ref={container} ></div>
+           <div  className="container" style={{ height: '300px', width: '500px'}} ref={container} ></div>
        </div>
       <div className="joinandwatchButton">
           <div className="joinButton">
@@ -92,11 +117,12 @@ const Home = ()=>{
             <div>
                 <div className="subscribe-box">
                     <div >
-                        <img src={SearchIcon} alt="React Image" />
+                        <img src={subscribePict} alt="React Image" />
                        <h3>Subscribe to Our News Letter to Get Company News</h3>
                     </div>
-                   <div>
-
+                   <div className="sub-button">
+                       <input type="email" name="emailAddress" placeholder="EmailAddress" onChange={collectLoginData} />
+                       <button className="submitBtn" onClick={handleSubmit}>Subscribe</button>
                    </div>
                 </div>
 

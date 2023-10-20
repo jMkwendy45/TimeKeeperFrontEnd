@@ -1,12 +1,14 @@
 .text-container{
     padding:20px 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin:40px;
+    /*width:1000px;*/
+    justify-content: space-around;
+    /*align-items: center;*/
 }
 .home-container{
     background-color:#252b42;
-    height:130vh;
+    height:190vh;
 }
 .streamText{
     font-size:20px;
@@ -25,7 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right:973px;
+    margin-right:1100px;
     margin-top:50px;
     gap:3rem;
 }
@@ -45,14 +47,14 @@
 }
 .key_text h4{
     color:#e3e3e6;
-    margin-left:590px;
+    margin-left:650px;
     font-size:30px;
 }
 .embrace_text p{
     width:550px;
     overflow-wrap:break-word;
     color: #50485a;
-    margin-left:456px;
+    margin-left:500px;
     font-size:13px;
 }
 /*.st-cont{*/
@@ -65,7 +67,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 120px;
+    margin-left: 250px;
+     gap:3rem;
 }
 .key-feature-imgs h6{
     color:white;
@@ -81,5 +84,39 @@
 .task-mang p {
     margin-right: 30px;
 }
+.subscribe-box{
+    width: 700px;
+    height: 377px;
+    border: none;
+    background:#433f5f;
+    border-radius:17px;
 
-/*#30293f*/
+    boxShadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    /*padding: 90px;*/
+    margin-left:460px;
+    margin-top:80px;
+}
+.subscribe-box img{
+    height:140px;
+}
+.subscribe-box h3{
+    margin-left:130px;
+    font-size:30px;
+    color:white;
+}
+.sub-button{
+    margin-left:130px;
+}
+.sub-button input{
+    height:50px;
+    width:350px;
+    border-radius:40px;
+}
+.sub-button button{
+    magin-right:20px;
+    height:30px;
+    width:100px;
+    border:none;
+    border-radius:40px;
+    background-color: #ec5c2e;
+}
