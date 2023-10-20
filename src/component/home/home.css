@@ -1,31 +1,31 @@
 .text-container{
     padding:20px 20px;
-    /*display: flex;*/
-    /*justify-content: center;*/
-    /*align-items: center;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .home-container{
     background-color:#252b42;
-    height:100vh;
+    height:130vh;
 }
 .streamText{
     font-size:20px;
     width:370px;
     overflow-wrap:break-word;
     color:#ffffff;
-    margin-left:50px;
+    margin-right:600px;
 }
 .effort-text{
     width:370px;
     overflow-wrap:break-word;
-    margin-left:50px;
+    margin-left:5px;
     color:#9a9da6;
 }
 .joinandwatchButton{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right:930px;
+    margin-right:973px;
     margin-top:50px;
     gap:3rem;
 }
@@ -44,5 +44,42 @@
     background-color:#2d7bc4;
 }
 .key_text h4{
-    color:#e3e3e6#e3e3e6;
+    color:#e3e3e6;
+    margin-left:590px;
+    font-size:30px;
 }
+.embrace_text p{
+    width:550px;
+    overflow-wrap:break-word;
+    color: #50485a;
+    margin-left:456px;
+    font-size:13px;
+}
+/*.st-cont{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    margin-left: 120px;*/
+/*}*/
+.key-feature-imgs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
+.key-feature-imgs h6{
+    color:white;
+}
+.key-feature-imgs img{
+   height:50px;
+}
+.key-feature-imgs p{
+    width:200px;
+    overflow-wrap:break-word;
+    color: #50485a;
+}
+.task-mang p {
+    margin-right: 30px;
+}
+
+/*#30293f*/
