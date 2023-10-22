@@ -116,7 +116,7 @@ const Home = ()=>{
             </div>
             <div>
                 <div className="subscribe-box">
-                    <div >
+                    <div>
                         <img src={subscribePict} alt="React Image" />
                        <h3>Subscribe to Our News Letter to Get Company News</h3>
                     </div>
