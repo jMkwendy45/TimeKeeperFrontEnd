@@ -1,0 +1,70 @@
+.signup-main-contain{
+    background-color:#252b42;
+    /*margin:0;*/
+    /*padding:0;*/
+}
+.creat-txt h2{
+    color:white;
+    margin-left:170px;
+}
+.createacct-container{
+    width: 670px;
+    height: 600px;
+    border: none;
+    border-radius:10px;
+    margin-left:400px;
+    padding:20px;
+    margin-top:20px;
+    /*boxShadow: 2px 2px 4px rgba(0, 0, 0, 0.2);*/
+    background-color:#433f5f;
+}
+.full-name-container input{
+    width:200px;
+    height:40px;
+    border-radius:30px;
+}
+.main-cont{
+    margin-left:160px;
+    line-height: 3.5;
+}
+#lstnm{
+    margin-left:60px;
+}
+.email-cont input{
+    width:465px;
+    height:40px;
+    border-radius:30px;
+    border:none;
+
+
+}
+.psswrdtxt input{
+    width:465px;
+    height:40px;
+    border-radius:30px;
+    border:none;
+}
+label{
+    color:#94959e;
+}
+.crtbutton button{
+    height:40px;
+    width:450px;
+    border:none;
+    border-radius:30px;
+    background-color: #ec5c2e;
+    border:none;
+    color:white;
+    margin-top:50px;
+}
+.alredysign{
+    display:flex;
+    margin-left:100px;
+}
+#alrdtxt{
+    color:white;
+}
+#sign-txt{
+    margin-left:15px;
+    color:#ec5c2e
+}

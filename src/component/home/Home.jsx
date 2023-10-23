@@ -10,6 +10,7 @@ import SearchIcon from './searchic.png'
 import timePlay from './time.json'
 import subscribePict from './Pills.png'
 
+
 const Home = ()=>{
     const container = useRef(null);
     let anim = null; // Declare a variable to hold the Lottie animation instance
