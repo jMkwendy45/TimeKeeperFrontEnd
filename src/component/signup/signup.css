@@ -1,5 +1,8 @@
 .signup-main-contain{
-    background-color:#252b42;
+    /*background-color:#252b42;*/
+    background:#252b42;
+    height:98vh;
+    padding:10px;
     /*margin:0;*/
     /*padding:0;*/
 }
@@ -9,13 +12,12 @@
 }
 .createacct-container{
     width: 670px;
-    height: 600px;
+    height: 557px;
     border: none;
     border-radius:10px;
     margin-left:400px;
     padding:20px;
-    margin-top:20px;
-    /*boxShadow: 2px 2px 4px rgba(0, 0, 0, 0.2);*/
+    margin-top:30px;
     background-color:#433f5f;
 }
 .full-name-container input{
