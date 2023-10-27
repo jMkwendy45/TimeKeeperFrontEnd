@@ -1,0 +1,65 @@
+.login-main{
+    background:#252b42;
+    height:98vh;
+    padding:10px;
+}
+
+.login-container{
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+    border: none;
+    /*border-radius:10px;*/
+    margin-left:400px;
+    padding:20px;
+    margin-top:120px;
+    background-color:#433f5f;
+}
+.lg-txt-container{
+    margin-left:90px;
+    /*line-height: 3.4;*/
+}
+.login-txt h2{
+    color:white;
+    margin-left:100px;
+}
+.email-txt input{
+    width:345px;
+    height:55px;
+    border-radius:20px;
+    border:none;
+    margin-top:10px;
+}
+.pswd-t input{
+    width:345px;
+    height:55px;
+    border-radius:20px;
+    border:none;
+    margin-top:10px;
+}
+.pswd-lbl{
+    margin-top:40px;
+}
+.lgn-btn button{
+    height:40px;
+    width:359px;
+    border:none;
+    border-radius:30px;
+    background-color: #ec5c2e;
+    border:none;
+    color:white;
+    margin-top:50px;
+}
+.dontsign{
+    display:flex;
+    margin-left:160px;
+}
+#donttxt{
+    color:white;
+}
+#dont-txt{
+    margin-left:15px;
+    color:#ec5c2e
+}
+
+

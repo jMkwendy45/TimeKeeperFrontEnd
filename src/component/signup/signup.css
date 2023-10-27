@@ -8,14 +8,14 @@
 }
 .creat-txt h2{
     color:white;
-    margin-left:170px;
+    margin-left:120px;
 }
 .createacct-container{
     width: 670px;
     height: 557px;
     border: none;
     border-radius:10px;
-    margin-left:400px;
+    margin-left:310px;
     padding:20px;
     margin-top:30px;
     background-color:#433f5f;
@@ -24,10 +24,11 @@
     width:200px;
     height:40px;
     border-radius:30px;
+    border:none;
 }
 .main-cont{
-    margin-left:160px;
-    line-height: 3.5;
+    margin-left:100px;
+    line-height: 3.3;
 }
 #lstnm{
     margin-left:60px;
