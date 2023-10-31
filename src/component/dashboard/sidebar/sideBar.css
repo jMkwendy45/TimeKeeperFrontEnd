@@ -1,0 +1,39 @@
+/*.profile-pic-icon-cont{*/
+/*    background-color:blue;*/
+/*}*/
+.sid-main{
+    background-color:#252b42;
+    /*border-radius:100px;*/
+    width:260px;
+    height:100vh;
+}
+.profile-pic-icon-cont {
+    width: 260px;
+    height: 23vh;
+    background-color: #e57e31;
+    /*#e57e31*/
+}
+.fa-bars{
+    margin-left:224px;
+    font-size:30px;
+    color:white;
+}
+.fa-user{
+    margin-left:100px;
+    font-size:50px;
+    color:white;
+}
+.name-div h4{
+    color:white;
+    margin-left:90px;
+    margin-bottom:40px;
+}
+.workdsh{
+    margin-left:40px;
+    display:flex;
+    gap:3.rem;
+}
+.sidbar-info{
+    margin-top:40px;
+}
+/*#dddee0*/
