@@ -71,3 +71,57 @@ label{
     margin-left:15px;
     color:#ec5c2e
 }
+
+@media screen and (min-width:320px) and (max-width:480px){
+    .createacct-container{
+        width: 480px;
+        height: 650px;
+        border: none;
+        border-radius:7px;
+        margin-left:2px;
+        padding:20px;
+        margin-top:4px;
+        background-color:#433f5f;
+    }
+    .main-cont{
+       margin-left:2px;
+       line-height: 3.3;
+   }
+    .full-name-container input{
+        width:125px;
+        height:46px;
+        border-radius:20px;
+        border:none;
+    }
+    .email-cont input{
+        width:320px;
+        height:48px;
+        border-radius:20px;
+        border:none;
+    }
+    .psswrdtxt input{
+        width:320px;
+        height:50px;
+        border-radius:30px;
+        border:none;
+    }
+    .crtbutton button{
+        height:50px;
+        width:320px;
+        border:none;
+        border-radius:30px;
+        background-color: #ec5c2e;
+        border:none;
+        color:white;
+        margin-top:50px;
+    }
+    .creat-txt h2{
+        color:white;
+        margin-left:10px;
+    }
+    .alredysign{
+        display:flex;
+        margin-left:57px;
+    }
+
+}

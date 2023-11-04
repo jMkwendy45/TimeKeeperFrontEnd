@@ -33,6 +33,20 @@
 .navBarFields a {
     text-decoration: none;
     color:#9a9da6;
+    transition:0.3s ease-in-out;
+}
+.navBarFields li a:hover{
+    text-decoration: none;
+    color:#ec5c2e;
+}
+.navBarFields li a:hover::after{
+    content:"";
+    width:30%;
+    height:2px;
+    background:#ec5c2e;
+    position:absolute;
+    bottom:-4px;
+    left:20px;
 }
 .buttons button{
     width: 100px;
@@ -55,6 +69,7 @@
     color: white;
     margin-right:7px;
 }
-@media screen and (min-width: 361px) and (max-width: 480px) {
-    /* Your CSS rules for mid-sized Android smartphones go here */
+#mobile i{
+    color:white;
 }
+
