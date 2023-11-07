@@ -140,7 +140,7 @@
         justify-content: center;
         align-items: center;
         margin-right:4px;
-        margin-top:7px;
+        margin-top:3px;
         gap:0.7rem;
     }
     .joinButton button{
@@ -186,10 +186,15 @@
         background-color: #ec5c2e;
     }
     .key-feature-imgs {
-        display: flex;
-        justify-content: center;
+        display: block;
+        justify-content: block;
         align-items: center;
         margin-left: 160px;
         gap:1rem;
     }
+    .home-container{
+        background-color:#252b42;
+        height:280vh;
+    }
+
 }
