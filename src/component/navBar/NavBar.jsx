@@ -13,8 +13,13 @@ const NavBar = () =>{
         <div class="nav-main-container">
             <div className="inner-container" >
                 <h4>TimeKeper</h4>
+                <div className="menu" onClick={() => setIsOpen(!isOpen)}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 <div className="navBarFields">
-                    <ul>
+                    <ul className={isOpen ? "open" : ""}>
                         <li className="active"><a href="#">Home</a></li>
                         <Link to="/login">Login</Link>
                         <li><a href="#">About</a></li>
