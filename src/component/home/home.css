@@ -121,56 +121,71 @@
     background-color: #ec5c2e;
 }
 @media screen and (min-width:360px) and (max-width:740px) {
+    .text-container{
+        padding:0;
+        display: flex;
+        margin:10%;
+        /*width:1000px;*/
+        justify-content: space-around;
+        /*align-items: center;*/
+    }
+    /*.container{*/
+    /*   width: 90px;*/
+    /*}*/
     .streamText{
-        font-size:10px;
-        width:110px;
-        /*overflow-wrap:break-word;*/
+        font-size:14px;
+        width:290px;
+        overflow-wrap:break-word;
         color:#ffffff;
         margin-right:10px;
         margin-left:7px;
+        /*margin-bottom: 100px;*/
     }
     .effort-text{
-        width:200px;
+        font-size: 20px;
+        width:270px;
         overflow-wrap:break-word;
         margin-left:5px;
+        margin-top:40px;
         color:#9a9da6;
     }
     .joinandwatchButton{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-right:4px;
-        margin-top:3px;
-        gap:0.7rem;
+        margin-left:170px;
+        /*margin-top:9px;*/
+        margin-bottom: 100px;
+        gap:1.0rem;
     }
     .joinButton button{
-        height:35px;
-        width:100px;
+        height:45px;
+        width:130px;
         border-radius: 40px;
         border-style: none;
         background-color: #ec5c2e;
     }
     .subscribe-box{
-        width: 257px;
-        height: 377px;
+        width: 357px;
+        height: 494px;
         border: none;
         background:#433f5f;
-        border-radius:10px;
+        border-radius:6px;
 
         boxShadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
         /*padding: 90px;*/
-        margin-left:70px;
+        margin-left:3px;
         margin-top:80px;
     }
     .subscribe-box h3{
-        margin-left:20px;
-        font-size:12px;
+        margin-left:30px;
+        font-size:22px;
         color:white;
     }
     .sub-button input{
-        height:50px;
-        width:220px;
-        border-radius:40px;
+        height:80px;
+        width:325px;
+        border-radius:20px;
         border:none;
     }
     .sub-button{
@@ -178,23 +193,41 @@
     }
     .sub-button button{
         /*magin-right:20px;*/
-        height:50px;
-        width:220px;
+        height:60px;
+        width:320px;
         border:none;
-        border-radius:30px;
+        border-radius:20px;
         margin-top:30px;
         background-color: #ec5c2e;
     }
     .key-feature-imgs {
         display: block;
-        justify-content: block;
+        justify-content: space-between;
         align-items: center;
-        margin-left: 160px;
+        margin-left: 40px;
         gap:1rem;
     }
-    .home-container{
-        background-color:#252b42;
-        height:280vh;
+    .home-container {
+        background-color: #252b42;
+        height: 280vh;
     }
-
+    .key_text h4{
+        color:#e3e3e6;
+        margin-left:70px;
+        font-size:30px;
+    }
+    .watchButton button{
+        height:50px;
+        width:150px;
+        border-radius: 40px;
+        border-style: none;
+        background-color:#2d7bc4;
+    }
+    .embrace_text p{
+        width:300px;
+        overflow-wrap:break-word;
+        color: #50485a;
+        margin-left:30px;
+        font-size:15px;
+    }
 }

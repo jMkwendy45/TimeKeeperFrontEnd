@@ -1,3 +1,5 @@
+
+// import { FaBars, FaTimes } from 'react-icons/fa';
 import './navBar.css'
 import {Link} from "react-router-dom";
 import React, { useState } from "react";
@@ -5,14 +7,14 @@ import React, { useState } from "react";
 
 const NavBar = () =>{
     const [isOpen,setIsOpen] = useState(false)
-    const handleClick=()=>{
-        setIsOpen(!isOpen)
-    }
+    // const handleClick=()=>{
+    //     setIsOpen(!isOpen)
+    // }
 
     return(
-        <div class="nav-main-container">
+        <div className="nav-main-container">
             <div className="inner-container" >
-                <h4>TimeKeper</h4>
+                <h4>TimeKeeper</h4>
                 <div className="menu" onClick={() => setIsOpen(!isOpen)}>
                     <span></span>
                     <span></span>

@@ -88,36 +88,101 @@
     background-color: #fff;
     border-radius: 0.2rem;
 }
-@media (max-width: 480px) {
+@media screen and (min-width:360px) and (max-width:740px) {
     .menu {
         display: flex;
     }
-
-   .inner-container {
+    .inner-container {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
 
-    .navBarFields  ul  {
+    .navBarFields ul {
         display: none;
         flex-direction: column;
         width: 100%;
-        margin-bottom: 0.25rem;
     }
 
-    .navBarFields  ul.open {
-        display: flex;
-    }
-    .navBarFields  ul li {
+    .navBarFields ul.open {
         display: flex;
     }
 
-    .navBarFields  ul li {
+    .navBarFields ul li {
         width: 100%;
         text-align: center;
     }
 
     .navBarFields ul li a {
-        margin: 0.2rem 0.5rem;
+        margin: 0.5rem 0;
+    }
+    .inner-container h4{
+        margin-right: 195px;
+        color:#ec5c2e;
     }
 }
+/* Add this CSS for responsive design */
+/*@media (max-width: 768px) {*/
+/*    .menu {*/
+/*        display: flex;*/
+/*    }*/
+
+/*    .inner-container {*/
+/*        flex-direction: column;*/
+/*        align-items: center;*/
+/*    }*/
+
+/*    .navBarFields ul {*/
+/*        display: none;*/
+/*        flex-direction: column;*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .navBarFields ul.open {*/
+/*        display: flex;*/
+/*    }*/
+
+/*    .navBarFields ul li {*/
+/*        width: 100%;*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    .navBarFields ul li a {*/
+/*        margin: 0.5rem 0;*/
+/*    }*/
+/*}*/
+
+/* You can keep your existing CSS for larger screens */
+
+/*@media (max-width: 480px) {*/
+/*    .menu {*/
+/*        display: flex;*/
+/*    }*/
+
+/*   .inner-container {*/
+/*        flex-direction: column;*/
+/*        align-items: flex-start;*/
+/*    }*/
+
+/*    .navBarFields  ul  {*/
+/*        display: none;*/
+/*        flex-direction: column;*/
+/*        width: 100%;*/
+/*        margin-bottom: 0.25rem;*/
+/*    }*/
+
+/*    .navBarFields  ul.open {*/
+/*        display: flex;*/
+/*    }*/
+/*    .navBarFields  ul li {*/
+/*        display: flex;*/
+/*    }*/
+
+/*    .navBarFields  ul li {*/
+/*        width: 100%;*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    .navBarFields ul li a {*/
+/*        margin: 0.2rem 0.5rem;*/
+/*    }*/
+/*}*/
