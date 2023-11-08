@@ -181,3 +181,56 @@ label{
         margin-top:27px;
     }
 }
+@media screen and (min-width:412px) and (max-width:915px){
+    .createacct-container{
+        width: 359px;
+        height: 876px;
+        border: none;
+        border-radius:7px;
+        /*margin-left:0px;*/
+        margin-right: 30px;
+        /*padding:20px;*/
+        /*margin-top:2px;*/
+        background-color:#433f5f;
+    }
+    .creat-txt h2{
+        color:white;
+        margin-left:10px;
+        font-size: 40px;
+    }
+    .full-name-container input{
+        width:340px;
+        height:80px;
+        border-radius:20px;
+        border:none;
+    }
+     .email-cont input{
+        width:340px;
+        height:80px;
+        border-radius:20px;
+        border:none;
+    }
+    .psswrdtxt input{
+        width:340px;
+        height:80px;
+        border-radius:20px;
+        border:none;
+    }
+    .crtbutton button{
+        height:80px;
+        width:340px;
+        border:none;
+        border-radius:30px;
+        background-color: #ec5c2e;
+        color:white;
+        margin-top:50px;
+    }
+    .signup-main-contain{
+        /*background-color:#252b42;*/
+        background:#252b42;
+        height:100vh;
+        padding:10px;
+        /*margin:0;*/
+        /*padding:0;*/
+    }
+}

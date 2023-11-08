@@ -1,4 +1,5 @@
 import './signup.css'
+import {Link} from "react-router-dom";
 
 const SignUp = () =>{
     const initialState ={
@@ -13,7 +14,6 @@ const SignUp = () =>{
             <div className="creat-txt">
                 <h2>Create new account</h2>
             </div>
-
                 <div className="main-cont">
             <form>
                 <div>
@@ -41,7 +41,9 @@ const SignUp = () =>{
             </form>
                     <div className="alredysign">
                         <p id="alrdtxt">Already a member?</p>
-                        <p id="sign-txt">Sign in</p>
+                        <Link to="/login">
+                            <p id="sign-txt">Sign in</p>
+                        </Link>
                     </div>
                 </div>
             </div>
