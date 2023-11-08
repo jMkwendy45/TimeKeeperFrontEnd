@@ -231,3 +231,46 @@
         font-size:15px;
     }
 }
+@media screen and (min-width:412px) and (max-width:915px) {
+    .subscribe-box{
+        width: 406px;
+        height: 994px;
+        border: none;
+        background:#433f5f;
+        border-radius:6px;
+
+        boxShadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        /*padding: 90px;*/
+        margin-left:3px;
+        margin-top:80px;
+    }
+    .subscribe-box h3{
+        margin-left:30px;
+        font-size:56px;
+        color:white;
+    }
+    .sub-button input{
+        height:100px;
+        width:355px;
+        border-radius:20px;
+        border:none;
+    }
+    .sub-button{
+        margin-top: 100px;
+    }
+    .sub-button button{
+        magin-right:20px;
+        height:80px;
+        width:350px;
+        border:none;
+        border-radius:30px;
+        background-color: #ec5c2e;
+    }
+
+
+
+
+
+
+
+}
