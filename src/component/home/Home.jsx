@@ -64,9 +64,9 @@ const Home = ()=>{
                </div>
 
                <div className="effort-text">
-                   <p>Effortlessly manage tasks ,teams and projects
-                       with our intuitive managementl,o app
-                       Simplify your work Simplify your productivity
+                   <p>Effortlessly manage tasks teams and projects
+                       with our intuitive management,app
+                       simplify your work simplify your productivity
                    </p>
                </div>
 

@@ -156,7 +156,7 @@
         margin-left:170px;
         /*margin-top:9px;*/
         margin-bottom: 100px;
-        gap:1.0rem;
+        gap:1.7rem;
     }
     .joinButton button{
         height:45px;
@@ -217,8 +217,8 @@
         font-size:30px;
     }
     .watchButton button{
-        height:50px;
-        width:150px;
+        height:45px;
+        width:130px;
         border-radius: 40px;
         border-style: none;
         background-color:#2d7bc4;
