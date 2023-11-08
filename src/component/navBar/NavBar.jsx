@@ -41,14 +41,6 @@ const NavBar = () =>{
 
                     </ul>
                 </div>
-                <div id="mobile">
-                    <i className="fasfa-bars">
-                    </i>
-                </div>
-                <div id="mobile">
-                    <i className="fasfa-times">
-                    </i>
-                </div>
 
             </div>
         </div>

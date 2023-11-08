@@ -9,6 +9,7 @@ import ReloadIcon from'./reload.png'
 import SearchIcon from './searchic.png'
 import timePlay from './time.json'
 import subscribePict from './Pills.png'
+import {Link} from "react-router-dom";
 
 
 const Home = ()=>{
@@ -75,7 +76,10 @@ const Home = ()=>{
        </div>
       <div className="joinandwatchButton">
           <div className="joinButton">
-              <button>Join Now</button>
+              <Link to="/sign_up">
+                  <button>Join Now</button>
+              </Link>
+
           </div>
           <div className="watchButton">
               <button>Watch Video</button>
