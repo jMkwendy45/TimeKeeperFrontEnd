@@ -7,6 +7,7 @@ import Login from './component/login/Login'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import WorkersDashboard from "./component/dashboard/WorkersDashboard";
 import SideBar from "./component/dashboard/sidebar/SideBar";
+import VideoPlay from "./component/video/VideoPlay";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path="/nav" Component={NavBar}/>
             <Route path="/sign_up" Component={SignUp}/>
             <Route path="/login" Component={Login}/>
+            <Route path="/video" Component={VideoPlay}/>
         </Routes>
 
           <Routes>

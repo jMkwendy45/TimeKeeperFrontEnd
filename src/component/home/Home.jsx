@@ -12,6 +12,7 @@ import subscribePict from './Pills.png'
 import {Link} from "react-router-dom";
 
 
+
 const Home = ()=>{
     const container = useRef(null);
     let anim = null; // Declare a variable to hold the Lottie animation instance
@@ -82,7 +83,10 @@ const Home = ()=>{
 
           </div>
           <div className="watchButton">
-              <button>Watch Video</button>
+              <Link to="/video">
+                  <button>Watch Video</button>
+              </Link>
+
           </div>
       </div>
             <div className="second_text_container">
