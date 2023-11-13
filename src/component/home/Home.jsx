@@ -52,12 +52,14 @@ const Home = ()=>{
         console.log(JoinToPartnerData)
     }
 
+    const [isNavbarOpen, setIsNavbarOpen] = useState(false)
+
 
     return(
         <div className="home-container">
-            <NavBar/>
-       <div className="text-container">
-
+            <NavBar  isOpen={isNavbarOpen} toggleNavbar={() => setIsNavbarOpen(!isNavbarOpen)}/>
+        <div className={`content-container ${isNavbarOpen ? 'content-hidden' : ''}`}>
+            <div className="text-container">
 
            <div className="st-cont">
 
@@ -134,7 +136,7 @@ const Home = ()=>{
                        <button className="submitBtn" onClick={handleSubmit}>Subscribe</button>
                    </div>
                 </div>
-
+            </div>
             </div>
         </div>
     )

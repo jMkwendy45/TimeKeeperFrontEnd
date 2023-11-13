@@ -127,8 +127,8 @@ label{
 }
 @media screen and (min-width:360px) and (max-width:740px){
     .createacct-container{
-        width: 480px;
-        height: 690px;
+        width: 315px;
+        height: 692px;
         border: none;
         border-radius:7px;
         margin-left:0px;
@@ -159,12 +159,11 @@ label{
         border:none;
     }
     .crtbutton button{
-        height:50px;
-        width:320px;
+        height:60px;
+        width:300px;
         border:none;
         border-radius:30px;
         background-color: #ec5c2e;
-        border:none;
         color:white;
         margin-top:50px;
     }
